@@ -36,18 +36,7 @@
                                 class="w-[50px] h-[50px] rounded-full mr-[25px] mt-[5px]"
                                 src="/images/avt.jpg"
                                 alt=""
-                                @click="boxUserInfo = !boxUserInfo"
                             />
-                            <Transition name="slide-fade">
-                                <div v-if="boxUserInfo"
-                                  class="absolute top-14 right-0 w-60 rounded-lg shadow-md shadow-gray-400 bg-[#ff3f3a] text-white px-5 z-50">
-                                  <ul>
-                                    <li class="py-3">
-                                      <router-link to="" @click="logout()" class="text-base font-semibold text-white text-decoration-none">Đăng xuất</router-link>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </Transition>
                         </div>
                     </div>
                 </header>
